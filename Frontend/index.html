@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/urlshortener" method="post" id="urlForm">
+            <h1>URL Shortener</h1>
+            <input type="url" name="url" id="url" placeholder="Enter an url " required>
+            <button type="submit">Submit</button>
+    </form><br>
+
+    <form action="/login" method="post" id="loginForm">
+        <h1>Login</h1>
+
+        <label for="username">User Name</label> 
+        <input type="text" name="username" id="username" required>
+
+        <label for="email">Email</label> 
+        <input type="email" name="email" id="email" required>
+
+        <label for="password">Password</label> 
+        <input type="password" name="password" id="password" required>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>

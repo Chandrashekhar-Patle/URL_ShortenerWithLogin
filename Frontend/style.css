@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#urlForm{
+    position: absolute;
+    width: 400px;
+    top: 100px;
+    padding: 30px;
+    text-align: center;
+    display: block;
+     border: 2px solid black;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#loginForm{
+    position: absolute;
+    width: 400px;
+    top: 300px;
+    padding: 30px;
+    
+    border: 2px solid black;
+}
+
+label{
+    display: block;
+}
+
+input{
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+button{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: blue;
+    color: black;
+    margin-left: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+}
